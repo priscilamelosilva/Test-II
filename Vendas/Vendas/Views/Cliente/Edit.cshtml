@@ -28,7 +28,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.DataNascimento, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.DataNascimento, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.DataNascimento, new { htmlAttributes = new { @class = "form-control", onblur = "CalcularIdade();" } })
                 @Html.ValidationMessageFor(model => model.DataNascimento, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -77,6 +77,7 @@
     @Html.ActionLink("Voltar", "Index")
 </div>
 
+<script src="~/Scripts/calculaValores.js"></script>
 <script src="~/Scripts/jquery-1.10.2.min.js"></script>
 <script src="~/Scripts/jquery.validate.min.js"></script>
 <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

@@ -13,7 +13,7 @@ namespace Vendas.Models
 
         [Display(Name = "Data de Nascimento")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
-        [DataType(DataType.Date, ErrorMessage = "Data em formato inválido")]
+        [DataType(DataType.Date, ErrorMessage = "Data em formato inválido.")]
         public DateTime DataNascimento{ get; set; }
 
         public int Idade{ get; set; }

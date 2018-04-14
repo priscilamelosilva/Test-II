@@ -12,11 +12,12 @@ namespace Vendas.Models
     {
         public int Id{ get; set; }
 
+        [Required(ErrorMessage = "Preencha o Número do Pedido.", AllowEmptyStrings = false)]
         [Display(Name = "Número")]
         public int Numero { get; set; }
 
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
-        [DataType(DataType.Date, ErrorMessage = "Data em formato inválido")]
+        [DataType(DataType.Date, ErrorMessage = "Data em formato inválido.")]
         public DateTime Data { get; set; }
 
         public int IdCliente { get; set; }

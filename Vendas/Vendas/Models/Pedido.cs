@@ -10,6 +10,7 @@ namespace Vendas.Models
 {
     public class Pedido
     {
+        [Display(Name = "Pedido")]
         public int Id{ get; set; }
 
         [Required(ErrorMessage = "Preencha o Número do Pedido.", AllowEmptyStrings = false)]

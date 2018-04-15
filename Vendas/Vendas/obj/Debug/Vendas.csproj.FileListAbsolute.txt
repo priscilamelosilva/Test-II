@@ -162,3 +162,4 @@ C:\Users\Inspiron\source\repos\Test-II\Vendas\Vendas\obj\Debug\Vendas.csproj.Cor
 C:\Users\Inspiron\source\repos\Test-II\Vendas\Vendas\obj\Debug\Vendas.csproj.CopyComplete
 C:\Users\Inspiron\source\repos\Test-II\Vendas\Vendas\obj\Debug\Vendas.dll
 C:\Users\Inspiron\source\repos\Test-II\Vendas\Vendas\obj\Debug\Vendas.pdb
+C:\Users\Inspiron\source\repos\Test-II\Vendas\Vendas\obj\Debug\Vendas.csprojResolveAssemblyReference.cache
